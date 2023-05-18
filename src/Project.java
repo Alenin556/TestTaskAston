@@ -49,10 +49,8 @@ public class Project {
         System.out.println("Введите число, чтобы вывести числа из массива кратные этому числу :");
 
         int personNumber = sc.nextInt();
-        int correctNumber = 0;
         for (int x = 0; x < number3.length; x++) {
             if (number3[x] % personNumber == 0) {
-                correctNumber = x;
                 System.out.println(number3[x]);
             }
 
