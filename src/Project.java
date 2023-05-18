@@ -46,7 +46,7 @@ public class Project {
         number3[4] = sc.nextInt();
         System.out.println(Arrays.toString(number3));
 
-        System.out.println("Введите число кратному которому вы хотите получить числа из массива с числами, которые вы указали:");
+        System.out.println("Введите число, чтобы вывести числа из массива кратные этому числу :");
 
         int personNumber = sc.nextInt();
         int correctNumber = 0;
