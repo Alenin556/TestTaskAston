@@ -32,7 +32,7 @@ public class Array {
 
         System.out.println("Введите число, чтобы вывести числа из массива кратные этому числу :");
 
-        double personNumber = sc.nextInt();
+        double personNumber = sc.nextDouble();
 
       /*  for (int x = 0; x < number3.length; x++) {
             if (number3[x] % personNumber == 0) {
