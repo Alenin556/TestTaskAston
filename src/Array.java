@@ -33,11 +33,18 @@ public class Array {
         System.out.println("Введите число, чтобы вывести числа из массива кратные этому числу :");
 
         double personNumber = sc.nextInt();
-        for (int x = 0; x < number3.length; x++) {
+
+      /*  for (int x = 0; x < number3.length; x++) {
             if (number3[x] % personNumber == 0) {
                 System.out.println(number3[x]);
             }
+        }
 
+       */
+        for (double n : number3) {
+            if (n % personNumber == 0) {
+                System.out.println(n);
+            }
         }
     }
 }
